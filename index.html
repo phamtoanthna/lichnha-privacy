@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư - Lịch Nhà</title>
+<style>
+:root{--bg:#fbfaf6;--fg:#1f2933;--muted:#52606d;--accent:#0f766e;--mark:#fff3b0;--rule:#d9e2ec}
+@media (prefers-color-scheme: dark){:root{--bg:#12191a;--fg:#e4ecec;--muted:#9fb3b3;--accent:#5eead4;--mark:#5a4b00;--rule:#2b3a3b}}
+html{background:var(--bg)}
+body{max-width:760px;margin:0 auto;padding:24px 18px 64px;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--fg)}
+h1{font-size:1.7rem;color:var(--accent);line-height:1.25}
+h2{font-size:1.2rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--accent)}
+p,li{overflow-wrap:anywhere}
+mark{background:var(--mark);color:inherit;padding:0 3px;border-radius:3px}
+strong{font-weight:650}
+</style>
+</head>
+<body>
+<h1>Chính sách quyền riêng tư của ứng dụng Lịch Nhà</h1>
+<p>Ngày hiệu lực: <mark>[NGÀY/THÁNG/NĂM]</mark><br>Nhà phát triển: <mark>[TÊN NHÀ PHÁT TRIỂN HOẶC TÊN CÁ NHÂN]</mark><br>Liên hệ: <mark>[EMAIL LIÊN HỆ]</mark></p>
+<h2>1. Giới thiệu</h2>
+<p>Lịch Nhà (sau đây gọi là “Ứng dụng”) là ứng dụng lịch âm Việt Nam giúp bạn xem ngày âm dương, ngày lễ, thông tin ngày giờ tham khảo, ghi chú sự kiện gia đình (giỗ, kỷ niệm, sinh nhật âm lịch...) và nhận nhắc nhở. Chúng tôi tôn trọng quyền riêng tư của bạn. Chính sách này giải thích Ứng dụng xử lý thông tin như thế nào.</p>
+<p>Tóm tắt ngắn gọn: <strong>Ứng dụng hoạt động ngoại tuyến (offline). Dữ liệu của bạn được lưu trên chính thiết bị của bạn. Chúng tôi không thu thập, không gửi và không chia sẻ dữ liệu cá nhân của bạn lên bất kỳ máy chủ nào.</strong></p>
+<h2>2. Thông tin được lưu trên thiết bị của bạn</h2>
+<p>Khi bạn sử dụng Ứng dụng, các thông tin sau được tạo ra và lưu <strong>chỉ trên thiết bị của bạn</strong>:</p>
+<ul>
+<li><strong>Ghi chú và sự kiện</strong> bạn nhập: tiêu đề, nội dung ghi chú, ngày (âm lịch hoặc dương lịch), cài đặt lặp lại hằng năm, giờ nhắc và số ngày nhắc trước. Nội dung này có thể chứa thông tin về người thân, ngày giỗ hoặc việc riêng của gia đình do chính bạn quyết định nhập vào.</li>
+<li><strong>Cài đặt của Ứng dụng</strong>: bật tắt nhắc nhở, giờ nhắc mặc định, tùy chọn nhắc lặp lại, bộ màu giao diện, chế độ sáng/tối.</li>
+<li><strong>Trạng thái nhắc nhở</strong>: để biết thông báo nào đã được nhắc hoặc đã được bạn xác nhận.</li>
+</ul>
+<p>Chúng tôi <strong>không có quyền truy cập</strong> vào các thông tin này vì chúng không rời khỏi thiết bị của bạn.</p>
+<h2>3. Thông tin chúng tôi KHÔNG thu thập</h2>
+<p>Ứng dụng không yêu cầu bạn tạo tài khoản và <strong>không thu thập</strong>:</p>
+<ul>
+<li>Họ tên, email, số điện thoại, địa chỉ hoặc bất kỳ thông tin định danh nào.</li>
+<li>Vị trí của thiết bị.</li>
+<li>Danh bạ, ảnh, tệp, micro hoặc camera.</li>
+<li>Mã định danh quảng cáo hoặc dữ liệu theo dõi hành vi.</li>
+</ul>
+<p>Ứng dụng không chứa quảng cáo và không sử dụng công cụ phân tích hay theo dõi của bên thứ ba.</p>
+<h2>4. Các quyền mà Ứng dụng sử dụng</h2>
+<p>Ứng dụng chỉ xin các quyền cần thiết cho chức năng nhắc nhở:</p>
+<ul>
+<li><strong>Thông báo</strong> (Android 13 trở lên): để hiển thị nhắc nhở sự kiện.</li>
+<li><strong>Báo thức chính xác</strong>: để nhắc đúng giờ bạn đã chọn, vì nhắc nhở ngày giỗ, ngày lễ là chức năng cốt lõi của Ứng dụng.</li>
+<li><strong>Nhận thông báo khi thiết bị khởi động xong</strong>: để đặt lại các nhắc nhở sau khi bạn khởi động lại điện thoại.</li>
+</ul>
+<p><mark>[KIỂM TRA LẠI: danh sách này phải khớp 100% với các quyền trong AndroidManifest.xml của bản phát hành. Nếu có thêm quyền khác (ví dụ rung), hãy bổ sung ở đây.]</mark></p>
+<p>Bạn có thể thu hồi các quyền này bất cứ lúc nào trong phần Cài đặt của thiết bị. Khi đó, nhắc nhở có thể không hiển thị đúng giờ nhưng các chức năng xem lịch vẫn hoạt động.</p>
+<h2>5. Sao lưu và khôi phục do bạn chủ động</h2>
+<p>Ứng dụng cho phép bạn <strong>xuất</strong> ghi chú ra một tệp và <strong>nhập</strong> lại từ tệp đó thông qua trình chọn tệp của hệ thống Android. Việc này hoàn toàn do bạn chủ động. Tệp xuất ra được lưu ở nơi bạn chọn và không được gửi tới chúng tôi. Hãy bảo quản tệp sao lưu cẩn thận vì nội dung trong tệp có thể đọc được bởi bất kỳ ai có quyền truy cập tệp đó.</p>
+<p>Ứng dụng không bật chức năng sao lưu tự động lên đám mây. Vì vậy, nếu bạn đổi điện thoại, hãy dùng chức năng xuất và nhập để chuyển ghi chú sang thiết bị mới.</p>
+<h2>6. Chia sẻ thông tin</h2>
+<p>Chúng tôi <strong>không bán, không trao đổi và không chia sẻ</strong> dữ liệu của bạn với bất kỳ bên thứ ba nào, vì chúng tôi không nắm giữ dữ liệu đó.</p>
+<p>Ứng dụng có chức năng chia sẻ thông tin ngày (ví dụ gửi thông tin ngày qua ứng dụng nhắn tin). Chức năng này chỉ chạy khi bạn chủ động bấm nút, và nội dung được chuyển cho ứng dụng mà bạn chọn. Việc xử lý sau đó do ứng dụng nhận thực hiện theo chính sách của họ.</p>
+<h2>7. Dịch vụ của bên thứ ba</h2>
+<p>Ứng dụng không tích hợp thư viện quảng cáo, phân tích hay theo dõi. Tuy nhiên, khi bạn tải Ứng dụng từ Google Play, Google có thể cung cấp cho nhà phát triển các báo cáo kỹ thuật tổng hợp (ví dụ số lần ứng dụng bị lỗi, thông tin phiên bản hệ điều hành) từ những thiết bị đã bật tính năng chia sẻ dữ liệu chẩn đoán. Dữ liệu này do Google thu thập theo chính sách của Google và không chứa nội dung ghi chú của bạn.</p>
+<h2>8. Bảo mật dữ liệu</h2>
+<p>Dữ liệu được lưu trong vùng lưu trữ riêng của Ứng dụng trên thiết bị, được hệ điều hành Android bảo vệ. Chúng tôi khuyến nghị bạn:</p>
+<ul>
+<li>Đặt khóa màn hình cho thiết bị.</li>
+<li>Cập nhật hệ điều hành và Ứng dụng thường xuyên.</li>
+<li>Cân nhắc nội dung nhạy cảm khi đưa vào ghi chú, đặc biệt nếu thiết bị được dùng chung.</li>
+</ul>
+<p>Thông báo trên màn hình khóa được cấu hình để ẩn nội dung chi tiết, chỉ hiển thị nội dung chung chung. <mark>[KIỂM TRA LẠI: chỉ giữ câu này nếu bản phát hành đã áp dụng VISIBILITY_PRIVATE cho thông báo.]</mark></p>
+<p>Không có hệ thống nào an toàn tuyệt đối, vì vậy chúng tôi không thể cam kết bảo vệ dữ liệu trước mọi rủi ro, ví dụ thiết bị bị mất hoặc bị chiếm quyền kiểm soát.</p>
+<h2>9. Quyền của bạn và việc xóa dữ liệu</h2>
+<p>Vì dữ liệu nằm trên thiết bị của bạn, bạn toàn quyền kiểm soát:</p>
+<ul>
+<li><strong>Xem và chỉnh sửa</strong>: ngay trong Ứng dụng.</li>
+<li><strong>Xóa từng ghi chú</strong>: ngay trong Ứng dụng.</li>
+<li><strong>Xóa toàn bộ dữ liệu</strong>: dùng chức năng “Xóa toàn bộ ghi chú” trong phần Cài đặt của Ứng dụng, hoặc vào Cài đặt thiết bị, chọn Ứng dụng, chọn Lịch Nhà, chọn Bộ nhớ, rồi Xóa dữ liệu.</li>
+<li><strong>Gỡ cài đặt Ứng dụng</strong>: toàn bộ dữ liệu của Ứng dụng trên thiết bị sẽ bị xóa. Các tệp sao lưu bạn đã xuất ra ở nơi khác cần được bạn tự xóa.</li>
+</ul>
+<p>Nếu bạn có câu hỏi hay yêu cầu liên quan đến dữ liệu cá nhân, vui lòng liên hệ chúng tôi theo thông tin ở cuối chính sách.</p>
+<h2>10. Quyền riêng tư của trẻ em</h2>
+<p>Ứng dụng không nhắm đến trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Vì Ứng dụng không thu thập dữ liệu, việc sử dụng Ứng dụng không dẫn đến việc chúng tôi nhận được thông tin của trẻ em.</p>
+<h2>11. Lưu ý về nội dung</h2>
+<p>Thông tin về ngày giờ tốt xấu, hướng xuất hành, phong thủy và phong tục trong Ứng dụng mang tính <strong>tham khảo</strong> theo văn hóa truyền thống, có thể khác nhau theo vùng miền và từng gia đình. Đây không phải là lời khuyên khoa học, y tế, pháp lý hay tài chính, và không phải là cam kết về kết quả.</p>
+<h2>12. Thay đổi chính sách</h2>
+<p>Chúng tôi có thể cập nhật chính sách này khi Ứng dụng thay đổi hoặc khi quy định pháp luật thay đổi. Phiên bản mới nhất luôn được đăng tại đường dẫn này kèm ngày hiệu lực. Nếu thay đổi có ảnh hưởng đáng kể đến cách xử lý dữ liệu (ví dụ Ứng dụng bắt đầu kết nối mạng), chúng tôi sẽ thông báo trong Ứng dụng hoặc trên trang Ứng dụng tại Google Play.</p>
+<h2>13. Liên hệ</h2>
+<p>Nếu có câu hỏi về chính sách này, vui lòng liên hệ:</p>
+<ul>
+<li>Nhà phát triển: <mark>[TÊN NHÀ PHÁT TRIỂN]</mark></li>
+<li>Email: <mark>[EMAIL LIÊN HỆ]</mark></li>
+</ul>
+</body>
+</html>
